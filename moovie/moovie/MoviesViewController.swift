@@ -31,6 +31,25 @@ class MoviesViewController: UIViewController, UITableViewDataSource {
         print(movies)
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if let indexPath = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // TODO: Pt 1 - Pass the selected track to the detail view controller
+        if let cell = sender as? UITableViewCell,
+           let indexPath = tableView.indexPath(for: cell),
+           let detailViewController = segue.destination as? DetailViewController {
+            let movie = movies[indexPath.row]
+            detailViewController.movie = movie
+            
+        }
+        
+        
+    }
 
 }
 

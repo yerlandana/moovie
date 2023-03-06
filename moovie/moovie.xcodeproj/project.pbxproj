@@ -19,6 +19,7 @@
 		8E5A43B229B5893300252339 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43B129B5893300252339 /* Movie.swift */; };
 		8E5A43B429B58D8D00252339 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43B329B58D8D00252339 /* MovieCell.swift */; };
 		8E5A43B829B5B30A00252339 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5A43B729B5B30A00252339 /* Nuke */; };
+		8E5A43BE29B5C95B00252339 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43BD29B5C95B00252339 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		8E5A43A429B587EC00252339 /* moovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8E5A43B129B5893300252339 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		8E5A43B329B58D8D00252339 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		8E5A43BD29B5C95B00252339 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				8E5A438A29B587EC00252339 /* Assets.xcassets */,
 				8E5A438C29B587EC00252339 /* LaunchScreen.storyboard */,
 				8E5A438F29B587EC00252339 /* Info.plist */,
+				8E5A43BD29B5C95B00252339 /* DetailViewController.swift */,
 			);
 			path = moovie;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				8E5A438629B587EA00252339 /* MoviesViewController.swift in Sources */,
 				8E5A438229B587EA00252339 /* AppDelegate.swift in Sources */,
 				8E5A43B229B5893300252339 /* Movie.swift in Sources */,
+				8E5A43BE29B5C95B00252339 /* DetailViewController.swift in Sources */,
 				8E5A43B429B58D8D00252339 /* MovieCell.swift in Sources */,
 				8E5A438429B587EA00252339 /* SceneDelegate.swift in Sources */,
 			);
