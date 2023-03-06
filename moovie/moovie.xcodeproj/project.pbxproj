@@ -18,6 +18,7 @@
 		8E5A43A529B587EC00252339 /* moovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43A429B587EC00252339 /* moovieUITestsLaunchTests.swift */; };
 		8E5A43B229B5893300252339 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43B129B5893300252339 /* Movie.swift */; };
 		8E5A43B429B58D8D00252339 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43B329B58D8D00252339 /* MovieCell.swift */; };
+		8E5A43B829B5B30A00252339 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5A43B729B5B30A00252339 /* Nuke */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5A43B829B5B30A00252339 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +159,9 @@
 			dependencies = (
 			);
 			name = moovie;
+			packageProductDependencies = (
+				8E5A43B729B5B30A00252339 /* Nuke */,
+			);
 			productName = moovie;
 			productReference = 8E5A437E29B587EA00252339 /* moovie.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 8E5A437529B587EA00252339;
+			packageReferences = (
+				8E5A43B629B5B30900252339 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 8E5A437F29B587EA00252339 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -618,6 +626,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E5A43B629B5B30900252339 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E5A43B729B5B30A00252339 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E5A43B629B5B30900252339 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E5A437629B587EA00252339 /* Project object */;
 }

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Nuke
 class MovieCell: UITableViewCell {
 
     
@@ -24,5 +24,11 @@ class MovieCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    func configure(with movie: Movie) {
+        movieTitleLabel.text = movie.movieTitle
+        movieDescLabel.text = movie.movieDesc
 
+        // Load image async via Nuke library image loading helper method
+        Nuke.loadImage(with: movie.movieUrl100, into: movieImageView)
+    }
 }

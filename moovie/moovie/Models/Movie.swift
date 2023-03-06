@@ -49,7 +49,7 @@ extension Movie {
         
         Movie(movieTitle: "Little Dixie",
               movieDesc: "Erstwhile Special Forces operative Doc Alexander is asked to broker a truce with the Mexican drug cartel in secrecy. When Oklahoma Governor Richard Jeffs celebrates the execution of a high-ranking cartel member on TV, his Chief of Staff and Doc inform him about the peace he just ended. But it’s too late, as Cuco, the cartel’s hatchet man, has set his vengeful sights on Doc’s daughter Dixie.",
-              movieUrl100: URL(string:"https://m.media-amazon.com/images/M/MV5BYWJkZGMxYjUtNDdkMC00MDQxLWI2M2QtZmM2ZGIyODYyZDc3XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg")!,
+              movieUrl100: URL(string:"https://m.media-amazon.com/images/M/MV5BYjFmMjFmYTYtNDg4MS00NDU1LWJmMzktNzYyN2Y3M2EzZWFlXkEyXkFqcGdeQXVyMjEzMjMzNDc@._V1_FMjpg_UX1000_.jpg")!,
               voteAverage: "6.3",
               voteCount: "44",
               popularity: "1698.096")
