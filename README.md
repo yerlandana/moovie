@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/a/SMUAPu3.gif' title='Video Walkthrough' width='100' alt='Video Walkthrough' />
-TODO: ![](https://i.imgur.com/a/SMUAPu3.gif)
+TODO: ![](https://i.imgur.com/SmMadnb.mp4)
 
 ## Notes
 
