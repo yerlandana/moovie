@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		8E5A438229B587EA00252339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A438129B587EA00252339 /* AppDelegate.swift */; };
 		8E5A438429B587EA00252339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A438329B587EA00252339 /* SceneDelegate.swift */; };
-		8E5A438629B587EA00252339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A438529B587EA00252339 /* ViewController.swift */; };
+		8E5A438629B587EA00252339 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A438529B587EA00252339 /* MoviesViewController.swift */; };
 		8E5A438929B587EA00252339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A438729B587EA00252339 /* Main.storyboard */; };
 		8E5A438B29B587EC00252339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A438A29B587EC00252339 /* Assets.xcassets */; };
 		8E5A438E29B587EC00252339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5A438C29B587EC00252339 /* LaunchScreen.storyboard */; };
 		8E5A439929B587EC00252339 /* moovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A439829B587EC00252339 /* moovieTests.swift */; };
 		8E5A43A329B587EC00252339 /* moovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43A229B587EC00252339 /* moovieUITests.swift */; };
 		8E5A43A529B587EC00252339 /* moovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43A429B587EC00252339 /* moovieUITestsLaunchTests.swift */; };
+		8E5A43B229B5893300252339 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43B129B5893300252339 /* Movie.swift */; };
+		8E5A43B429B58D8D00252339 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A43B329B58D8D00252339 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		8E5A437E29B587EA00252339 /* moovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5A438129B587EA00252339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E5A438329B587EA00252339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E5A438529B587EA00252339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E5A438529B587EA00252339 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		8E5A438829B587EA00252339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E5A438A29B587EC00252339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E5A438D29B587EC00252339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		8E5A439E29B587EC00252339 /* moovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5A43A229B587EC00252339 /* moovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moovieUITests.swift; sourceTree = "<group>"; };
 		8E5A43A429B587EC00252339 /* moovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E5A43B129B5893300252339 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8E5A43B329B58D8D00252339 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		8E5A438029B587EA00252339 /* moovie */ = {
 			isa = PBXGroup;
 			children = (
+				8E5A43B529B58D9D00252339 /* Models */,
 				8E5A438129B587EA00252339 /* AppDelegate.swift */,
 				8E5A438329B587EA00252339 /* SceneDelegate.swift */,
-				8E5A438529B587EA00252339 /* ViewController.swift */,
+				8E5A438529B587EA00252339 /* MoviesViewController.swift */,
+				8E5A43B329B58D8D00252339 /* MovieCell.swift */,
 				8E5A438729B587EA00252339 /* Main.storyboard */,
 				8E5A438A29B587EC00252339 /* Assets.xcassets */,
 				8E5A438C29B587EC00252339 /* LaunchScreen.storyboard */,
@@ -125,6 +131,14 @@
 				8E5A43A429B587EC00252339 /* moovieUITestsLaunchTests.swift */,
 			);
 			path = moovieUITests;
+			sourceTree = "<group>";
+		};
+		8E5A43B529B58D9D00252339 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E5A43B129B5893300252339 /* Movie.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E5A438629B587EA00252339 /* ViewController.swift in Sources */,
+				8E5A438629B587EA00252339 /* MoviesViewController.swift in Sources */,
 				8E5A438229B587EA00252339 /* AppDelegate.swift in Sources */,
+				8E5A43B229B5893300252339 /* Movie.swift in Sources */,
+				8E5A43B429B58D8D00252339 /* MovieCell.swift in Sources */,
 				8E5A438429B587EA00252339 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,11 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MoviesViewController: UIViewController {
+    
+    var movies: [Movie] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        movies = Movie.mockMovies
+        print(movies)
     }
 
 
