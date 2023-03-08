@@ -30,8 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/Nw3AyKc.gif' title='Video Walkthrough' width='100' alt='Video Walkthrough' />
-TODO: ![](https://i.imgur.com/SmMadnb.mp4)
+![](https://github.com/yerlandana/moovie/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2014%20Pro%20-%202023-03-07%20at%2017.50.28.gif)
 
 ## Notes
 
