@@ -10,6 +10,9 @@
 		8E27F4C229BEF8320024E191 /* PostersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27F4C129BEF8320024E191 /* PostersViewController.swift */; };
 		8E27F4C429BEF97E0024E191 /* Poster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27F4C329BEF97E0024E191 /* Poster.swift */; };
 		8E27F4C629BEFC6A0024E191 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27F4C529BEFC6A0024E191 /* PosterCell.swift */; };
+		8E27F4C829BF0AEF0024E191 /* Similar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27F4C729BF0AEE0024E191 /* Similar.swift */; };
+		8E27F4CC29BF0CC30024E191 /* SimilarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27F4CB29BF0CC30024E191 /* SimilarCell.swift */; };
+		8E27F4CE29BF0CEE0024E191 /* SimilarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E27F4CD29BF0CEE0024E191 /* SimilarViewController.swift */; };
 		8E5A438229B587EA00252339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A438129B587EA00252339 /* AppDelegate.swift */; };
 		8E5A438429B587EA00252339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A438329B587EA00252339 /* SceneDelegate.swift */; };
 		8E5A438629B587EA00252339 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5A438529B587EA00252339 /* MoviesViewController.swift */; };
@@ -46,6 +49,9 @@
 		8E27F4C129BEF8320024E191 /* PostersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersViewController.swift; sourceTree = "<group>"; };
 		8E27F4C329BEF97E0024E191 /* Poster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poster.swift; sourceTree = "<group>"; };
 		8E27F4C529BEFC6A0024E191 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		8E27F4C729BF0AEE0024E191 /* Similar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Similar.swift; sourceTree = "<group>"; };
+		8E27F4CB29BF0CC30024E191 /* SimilarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarCell.swift; sourceTree = "<group>"; };
+		8E27F4CD29BF0CEE0024E191 /* SimilarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarViewController.swift; sourceTree = "<group>"; };
 		8E5A437E29B587EA00252339 /* moovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5A438129B587EA00252339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E5A438329B587EA00252339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 				8E5A438F29B587EC00252339 /* Info.plist */,
 				8E5A43BD29B5C95B00252339 /* DetailViewController.swift */,
 				8E27F4C529BEFC6A0024E191 /* PosterCell.swift */,
+				8E27F4CB29BF0CC30024E191 /* SimilarCell.swift */,
+				8E27F4CD29BF0CEE0024E191 /* SimilarViewController.swift */,
 			);
 			path = moovie;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			children = (
 				8E5A43B129B5893300252339 /* Movie.swift */,
 				8E27F4C329BEF97E0024E191 /* Poster.swift */,
+				8E27F4C729BF0AEE0024E191 /* Similar.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -295,11 +304,14 @@
 				8E5A438629B587EA00252339 /* MoviesViewController.swift in Sources */,
 				8E5A438229B587EA00252339 /* AppDelegate.swift in Sources */,
 				8E5A43B229B5893300252339 /* Movie.swift in Sources */,
+				8E27F4C829BF0AEF0024E191 /* Similar.swift in Sources */,
+				8E27F4CC29BF0CC30024E191 /* SimilarCell.swift in Sources */,
 				8E5A43BE29B5C95B00252339 /* DetailViewController.swift in Sources */,
 				8E27F4C429BEF97E0024E191 /* Poster.swift in Sources */,
 				8E5A43B429B58D8D00252339 /* MovieCell.swift in Sources */,
 				8E27F4C229BEF8320024E191 /* PostersViewController.swift in Sources */,
 				8E5A438429B587EA00252339 /* SceneDelegate.swift in Sources */,
+				8E27F4CE29BF0CEE0024E191 /* SimilarViewController.swift in Sources */,
 				8E27F4C629BEFC6A0024E191 /* PosterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

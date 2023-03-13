@@ -19,6 +19,7 @@ struct Movie : Decodable{
     let vote_average: Float
     let vote_count: Int
     let popularity: Double
+    let id: Int
 }
 
 
