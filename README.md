@@ -1,40 +1,44 @@
-# Project 2 - *Moovie*
+# Project 3 - *Moovie 2.0* 
 
 Submitted by: **Dana Yerlanova**
 
-**Movie** is a movie browsing app that shows information about movies
+**Movie 2.0** is an app that introduces networking of real data from a TMDB website server! Also in tabBarView you can see another screen of film posters in collectionView. In addition, you can see similar movies in each movie extended description.
 
-Time spent: **7** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [Y] Users are able to see a customized app icon and launch screen
-- [Y] Your app should work for any screen size and orientation using AutoLayout constraints
-  - [Y] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
-- [Y] Displays at least 5 different movies in a table view
-- [Y] Can tap into detail view of movie with a full description, backdrop image, and title
+- [x] Implement network call and table view to display a list of movies currently playing (title, description, image)
+- [x] App has a collection view with the same list of movies
+- [x] Uses a tab bar controller to switch between collection view and table view screens
  
 The following **optional** features are implemented:
 
-- [Y] Unique UI changes, such as background, font/color changes, etc.
-- [ ] User implements a collection view
-- [Y] User implemenets tab bar controller with at least two screens
+- [x] Make an additional network call to another end-point.	
+- [x] Allow users to scroll when context items are off-screen (table view implemention)
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-![](https://github.com/yerlandana/moovie/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2014%20Pro%20-%202023-03-07%20at%2017.50.28.gif)
+<img src='https://i/imgur.com/gallery/EGs1l5a.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
-I did this app while moving to 2 hotels, and finally, to my apartment.
+Describe any challenges encountered while building the app.
 
 ## License
 
