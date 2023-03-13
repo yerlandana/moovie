@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/gallery/EGs1l5a.gif' title='Video Walkthrough'/>
+<img src='https://github.com/yerlandana/moovie/blob/main/Moovie%202.0%20-%20Imgur.gif' title='Video Walkthrough'/>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with imgur.com 
